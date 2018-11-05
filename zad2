@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+void main(void) {
+	setlocale(LC_ALL,"Russian");
+	float x,y,z,a,b,c,s,v,p;
+float j=1, k=2;
+v=k/3;
+p=j/2;
+
+	printf("enter x");
+	scanf("%f",&x);
+	printf("enter y");
+	scanf("%f",&y);
+	printf("enter z");
+	scanf("%f",&z);
+	a=2*cos(x-v);
+	b=p+sin(y)*sin(y);
+	c=1+z*z/(3-z*z/5);
+	s=(a/b)*c;
+	printf("vivod:%f",s);
+}
