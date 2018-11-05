@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <locale.h>
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+void main(void) {
+	setlocale(LC_ALL,"Russian");
+	int x;
+	float y,z;
+	
+	printf("enter x:");
+	scanf("%d",&x);
+	y=pow(x,6);
+	z=32*y;
+	printf("vivod %f",z);
+}
